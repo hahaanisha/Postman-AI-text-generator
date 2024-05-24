@@ -1,5 +1,5 @@
 const axios = require('axios');
-require('dotenv').config();  // Load environment variables
+require('dotenv').config(); 
 
 async function summarizeText(text) {
     let data = JSON.stringify({
